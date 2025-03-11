@@ -1,0 +1,54 @@
+name: dota2_timeplay
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.0.9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  #flutter_lints: ^3.0.0
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  
+  assets:
+    - images/
+
+
+  fonts:
+    - family: alb
+      fonts:
+        - asset: fonts/AlbertusMTStd.otf
+
+    - family: lato
+      fonts:
+        - asset: fonts/Lato-Black.ttf
+
+    - family: sri
+      fonts:
+        - asset: fonts/Sriracha-Regular.ttf
